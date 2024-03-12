@@ -5,7 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GenomeMart</title>
 </head>
+<script src="style.css"></script>
 <body>
-    
+
+    <main>
+        
+        <div><img src="\images\medical  equipment.jpg"></div>
+        <div>
+            <Header><h1>Welcome to GenomeMart</h1> <br>
+            <p>Your digital medical store</p>
+            </Header>
+
+            <form action="/sumbit_form" method="post">
+                <input type="text" placeholder="Username or email" id="usernameOrEmail" >
+                <input type="password" id="password" placeholder="Password" >
+
+<!-- "Remember Me" checkbox -->
+<div>
+    <label for="rememberMe">
+        <input type="checkbox" id="rememberMe" name="rememberMe"> Remember Me
+    </label>
+    <a href="/forgot-password">Forgot Password?</a>
+</div>
+
+
+  
+
+  <input type="submit" value="Sign in">
+
+            </form>
+        </div>
+    </main>
 </body>
 </html>
